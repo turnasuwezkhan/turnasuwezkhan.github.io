@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+		<link rel="stylesheet" type="text/css" href="style.css"/>
+<title>Personal Resume</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<body>
+<ul class='menubar'>
+  <li><a href="index.html">Home</a></li>
+  <li><a href="Timeline.html">Background</a></li>
+  <li><a href="About.html">Skills and Completed Projects</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="Achievements.html">Achievement</a></li>
+   <li><a href="Extra.html">Extra Curriculum Activities</a></li>
+  
+</ul>
+
+<div class="slideshow-container">
+
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="me.jpg" style="width:100%">
+  <div class="text"><b>Hi.. I am Rahatara Ferdousi Turna<b></div>
+</div>
+
+
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="im3.jpg" style="width:100%">
+  <div class="text" style="color: red; font-size:20px;">I am studying in Computer Science and Engineering in Khulna University,Khulna.</div>
+</div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="im2.jpg" style="width:100%">
+  <div class="text"><i style="color:black">"I always like to be ambitious without any hesgitation."</i></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+
+
+				 
+				 
+				 	 <h2><span>About</span> Me</h2>
+					 
+					 <p>I would like  to work as part of a dynamic team where there is an opportunity to acquire a challenging position in an environment where I can best utilize my skills which will allowing me to contribute to the continued achieve sustainable development anywhere in the world with particular reference to Bangladesh. 
+					Some of my  Hobbies are </br>Thinking about innovative ideas
+					</br>Reading, Traveling</br>Listening to Music</br>Computer Programming</br>voluntary</br>participating contest</br>arranging events.  </p>
+				 
+				 
+					 
+					
+					 
+			 
+            
+
+<div class="footer-social">
+    <span>Social Bee</span>
+    <li><a href="http://www.facebook.com" style="float:left;background-color:black">
+        <img src='fb.jpg' />
+    </a></li>
+<li><a href="http://www.gmail.com"  style="float:left;background-color:black"">
+    <img src='gmail.png' />
+</a></li>
+<li><a   style="float:left;background-color:black">
+<h3>hotline:+8801718656060</h3>
+   
+</a></li>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 4000); 
+}
+</script>
+
+</body>
+</html>
+
